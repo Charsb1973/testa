@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+body
+{
+    background-color: lightgray;
+    margin: auto;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu
+{
+    
+    background-color: rgb(70,70,128);
+    display: flex;
+    height: 60px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px black;
+    transition: 1s;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.menu:hover
+{
+    
+    background-color: rgb(50,50,108);
+    display: flex;
+    height: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px black;
+    transition: 1s;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+}
+.button
+{
+    background-color: rgb(133, 133, 192);
+    font-size:xx-large;
+    border-radius: 20px;
+    transition-property: font-size, color, background-color;
+    transition-duration: .6s;
+}
+.button:hover
+{
+    font-size: 4em;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    background-color: rgb(90,90,148);
+}
+.title h1{text-align: center;
+    border: 2px solid black;
+    background-color: gray;
+    border-radius: 20px;}
+
+.title   p{text-align: center;
+    color:red ;
+    text-decoration: underline;
+    font-size: 160%;}
+
+
+.start p
+{
+    font-size:160%;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.rapport_box
+{
+    font-size: x-large;
+    color: black;
+    height: 100px;
+    margin: 40px;
+    background-color: rgb(164, 158, 158);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-variant:small-caps;
+    transition: 6s;
+}
+.rapport_box p
+{
+    background-color:aliceblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition-property: font-size, color;
+            transition-duration: .6s;
+    font-size: 1.5em;
+}
+.rapport_box p:hover
+{
+    font-size: 2em;
+    color:black;
+    cursor:pointer
+}
+::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(70,70,128) ;
+}
+::-webkit-scrollbar-thumb
+{
+    background:linear-gradient(transparent,aliceblue);border-radius:20px
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:linear-gradient(transparent,white);
+}
+
+
+
+
+
+
+
+
+
+
+
+.title img{float: right ;
+    border: 2px solid black;
+}
+
+.resume{font-size: 200%;}
+
+.op{text-decoration: underline;}
+
+.characters b
+{
+    font-size: 100%;
+}
+
+
+
+.bande
+{
+    float: right;
+    border: 20px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+
+.okarin h2{text-align: start;
+    color: black;
+    text-decoration: underline;
+    }
+    .okarin p{text-align: left;
+        background-color: gray;
+    }
+    .okarin img{float: left;
+    border: 20px solid lightgray
+    }
+    .kurisu h2{text-align: start;
+    color: brown;
+    text-decoration: underline
+    }
+    .kurisu p{text-align: left;
+        background-color: gray;
+    }
+    .kurisu img{float: left;
+    border: 20px solid lightgray
+    }
+    .mayuri h2{text-align: start;
+        color: rgb(31, 5, 163);
+        text-decoration: underline
+     }
+    .mayuri p{text-align: left;
+            background-color: gray;
+    }
+    .mayuri img{float: left;
+        border: 20px solid lightgray
+    }
+
+    
+    .bandeb img{float:right;
+    }
+    
+    .c
+    {
+        font-size:xx-large;
+        border-radius: 20px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .all p
+    {
+        font-size:x-large;
+        border-radius: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
